@@ -1,0 +1,92 @@
+site_name: Manual de Prácticas IoT
+site_description: Manual interactivo de todas las prácticas de IoT - PARTICLE Photon 2
+site_author: Miranda Estefania Estrada Neyra.    Ximena Guadalupe Lucio Castillo
+site_url: https://tuusuario.github.io/manual-iot/
+
+repo_name: manual-iot
+repo_url: https://github.com/tuusuario/manual-iot
+
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Modo Claro
+    - scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Modo Oscuro
+
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.instant
+    - toc.follow
+    - toc.integrate
+    - search.highlight
+    - search.share
+
+  icon:
+    logo: material/led-on
+    repo: fontawesome/brands/github
+
+extra_css:
+  - assets/css/custom.css
+
+extra_javascript:
+  - assets/js/custom.js
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+
+nav:
+  - Inicio: index.md
+  - Prácticas:
+    - Práctica 1 - Encender un LED: practices/practica-1.md
+    - Práctica 2 - Encender 4 LEDs: practices/practica-2.md
+    - Práctica 3 - Enceder 4 LEDs con varios tiempos: practices/practica-3.md
+    - Práctica 4 - Efecto de desplazamiento izq -> der: practices/practica-4.md
+    - Práctica 5 - Ciclos for: practices/practica-5.md
+    - Práctica 6 - Encendido progresivo y apagado: practices/practica-6.md
+    - Práctica 7 - Diferentes tiempos de encendido y apagado: practices/practica-7.md
+    - Práctica 8 - Combinación de patrones de iluminación con diferentes tiempos: practices/practica-8.md
+    - Práctica 9 - PWM: practices/practica-9.md
+    - Práctica 10 - Control digital y PWM por ciclos: practices/practica-10.md
+    - Práctica 11 - Control digital y PWM por ciclos y distintos patrones: practices/practica-11.md
+    - Examen 1 - Cumplimiento de patrones para comportamientos en LEDs: practices/examen1.md
+    - Práctica 12 - Lectura de voltaje: practices/practica-12.md
+    - Práctica 13 - Lectura de voltaje específico: practices/practica-13.md
+  - Recursos:
+    - Glosario IoT: resources/glosario.md
+    - Pines Particle Photon 2: resources/pines-PP.md
+    - Simuladores recomendados: resources/simuladores.md
+extra:
+  generator: false
