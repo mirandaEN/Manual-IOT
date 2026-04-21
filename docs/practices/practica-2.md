@@ -45,7 +45,7 @@ Programar el Photon 2 y prender y apagar 4 leds utilizando el Web IDE.
   <h3 style="color: #00f7ff; margin-bottom: 15px;">🔬 Simulación Interactiva – Particle Photon 2</h3>
   
   <div style="position: relative; display: inline-block;">
-    <img src="/manual-iot/assets/images/practica2-diagrama.jpeg" 
+    <img src="/Manual-IOT/assets/images/practica2-diagrama.jpeg" 
          alt="Circuito 4 LEDs" 
          style="width: 100%; max-width: 680px; border-radius: 15px; box-shadow: 0 0 25px rgba(0, 247, 255, 0.6);">
 
